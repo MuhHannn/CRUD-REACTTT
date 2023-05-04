@@ -11,8 +11,7 @@ let api = axios.create({ baseURL: "https://localhost.3001"})
 
 function App() {
   const [contacts, setContacts] = useState([
-    {id: 1, name: "John John", telp: "098765432109"}, 
-    {id: 2, name: "Fajar", telp: "123456789012"}
+
   ])
 
   const [isUpdate, setIsUpdate] = useState({ id: null, status: false})
